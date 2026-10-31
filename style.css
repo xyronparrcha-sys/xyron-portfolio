@@ -650,8 +650,16 @@ h2 span {
     margin-bottom: 25px;
 }
 
-.contact-item > span {
+.contact-item > .contact-icon {
+    display: inline-flex;
     font-size: 1.6rem;
+    color: var(--accent);
+    cursor: pointer;
+}
+
+.contact-item a[href*="mail.google.com"]:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
 }
 
 .contact-item h3 {
