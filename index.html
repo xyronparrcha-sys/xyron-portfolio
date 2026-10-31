@@ -1,0 +1,368 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xyron A. Parrocha | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Xyron<span>.</span></a>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#memories">Memories</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+            <div class="music-player">
+                <label class="visually-hidden" for="music-track">Choose music</label>
+                <select id="music-track" aria-label="Choose music">
+                    <option value="Flow Experience.mp3">Flow Experience</option>
+                    <option value="Space Walk.mp3">Space Walk</option>
+                </select>
+                <button id="music-toggle" class="music-btn"
+                        aria-label="Play music" title="Play music">▶</button>
+                <span id="music-status" class="visually-hidden" aria-live="polite">Music paused</span>
+            </div>
+            <button id="theme-toggle" class="theme-btn"
+                    aria-label="Toggle theme">☾</button>
+            <button id="menu-toggle" class="menu-btn"
+                    aria-label="Toggle navigation">☰</button>
+        </div>
+    </header>
+
+    <audio id="background-music" loop preload="none">
+        <source src="Flow%20Experience.mp3" type="audio/mpeg">
+    </audio>
+
+    <main>
+        <!-- HOME -->
+        <section class="home section" id="home">
+            <div class="home-content">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                <h1 class="name-animate">Hi, I'm <span>Xyron A. Parrocha</span></h1>
+                <h2>Future Web Developer</h2>
+
+                <p class="description">
+                    I am a first-year BSCS student who is passionate
+                    about technology, programming, and creating websites.
+                    I am continuously learning and improving my skills.
+                </p>
+
+                <div class="home-buttons">
+                    <a href="#projects" class="btn">View My Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/xyronparrcha-sys" target="_blank"
+                       rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="https://www.facebook.com/share/1J83RgACHe/" target="_blank"
+                       rel="noopener noreferrer">Facebook ↗</a>
+                </div>
+            </div>
+      
+<div class="home-image">
+    <div class="photo-gallery">
+        <div class="image-frame">
+            <img src="profile.jpg" alt="Xyron A. Parrocha">
+        </div>
+
+    </div>
+
+    <div class="image-caption">
+        <span class="status-dot"></span>
+        Learning something new every day
+    </div>
+
+    <div class="image-details">
+        <p>First-year BSCS student at Wesleyan University–Philippines</p>
+        <p>Passionate about technology, coding, and creating meaningful digital experiences.</p>
+    </div>
+</div>
+
+        </section>
+
+        <!-- MEMORIES -->
+        <section class="section memories" id="memories">
+            <div class="section-heading">
+                <p class="eyebrow">SPECIAL MOMENTS</p>
+                <h2>My <span>Memories</span></h2>
+                <p class="section-description">
+                    A collection of moments I want to remember.
+                </p>
+            </div>
+
+            <div class="memories-gallery">
+                <figure class="memory-card">
+                    <button class="memory-photo-button" type="button" aria-label="View Memory 1">
+                        <img src="0ff7a7dc-25fc-4af6-8c00-d66844fe0433.jpg" alt="" loading="lazy">
+                    </button>
+                </figure>
+                <figure class="memory-card">
+                    <button class="memory-photo-button" type="button" aria-label="View Memory 2">
+                        <img src="1c229337-bccb-4089-9af3-4e6447c7b7ae.jpg" alt="" loading="lazy">
+                    </button>
+                </figure>
+                <figure class="memory-card">
+                    <button class="memory-photo-button" type="button" aria-label="View Memory 3">
+                        <img src="2fdb9177-51ca-4296-85d8-d990e2baa385.jpg" alt="" loading="lazy">
+                    </button>
+                </figure>
+                <figure class="memory-card">
+                    <button class="memory-photo-button" type="button" aria-label="View Memory 5">
+                        <img src="51ec50ad-823d-49ca-9572-1b71c2995626.jpg" alt="" loading="lazy">
+                    </button>
+                </figure>
+                <figure class="memory-card">
+                    <button class="memory-photo-button" type="button" aria-label="View Memory 6">
+                        <img src="230d221e-5107-41cf-9cd7-386618e71013.jpg" alt="" loading="lazy">
+                    </button>
+                </figure>
+                <figure class="memory-card">
+                    <button class="memory-photo-button" type="button" aria-label="View Memory 7">
+                        <img src="659dc541-c990-4991-9ca7-e35acb01b6a0.jpg" alt="" loading="lazy">
+                    </button>
+                </figure>
+                <figure class="memory-card">
+                    <button class="memory-photo-button" type="button" aria-label="View Memory 8">
+                        <img src="969bdf06-1785-49e3-a0a2-b96ed9f1350a.jpg" alt="" loading="lazy">
+                    </button>
+                </figure>
+                <figure class="memory-card">
+                    <button class="memory-photo-button" type="button" aria-label="View Memory 9">
+                        <img src="917804b1-7169-4d49-8be1-1afb64acf8ed.jpg" alt="" loading="lazy">
+                    </button>
+                </figure>
+                <figure class="memory-card">
+                    <button class="memory-photo-button" type="button" aria-label="View Memory 10">
+                        <img src="e1247d46-900e-45a7-9c83-2314a9974f4c.jpg" alt="" loading="lazy">
+                    </button>
+                </figure>
+                <figure class="memory-card">
+                    <button class="memory-photo-button" type="button" aria-label="View Memory 11">
+                        <img src="eef2f431-7026-483d-a823-06095c04c5f4.jpg" alt="" loading="lazy">
+                    </button>
+                </figure>
+            </div>
+
+            <dialog class="memory-viewer" id="memory-viewer"
+                    aria-labelledby="memory-viewer-caption">
+                <div class="memory-viewer-header">
+                    <p id="memory-viewer-caption"></p>
+                    <button class="memory-viewer-close" id="memory-viewer-close"
+                            type="button" aria-label="Close photo viewer">×</button>
+                </div>
+                <div class="memory-viewer-stage" id="memory-viewer-stage">
+                    <img id="memory-viewer-image" alt="">
+                </div>
+                <div class="memory-viewer-controls">
+                    <label for="memory-zoom">
+                        Zoom <output id="memory-zoom-value" for="memory-zoom">100%</output>
+                    </label>
+                    <input id="memory-zoom" type="range" min="1" max="3" step="0.1" value="1">
+                    <button class="memory-viewer-reset" id="memory-viewer-reset" type="button">
+                        Reset
+                    </button>
+                </div>
+                <p class="memory-viewer-hint">Drag the photo to reposition it.</p>
+            </dialog>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section about" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-content">
+                <div>
+                    <h3>A student with a passion for technology.</h3>
+                    <p>
+                        My name is Xyron A. Parrocha, and I am a
+                        first-year Bachelor of Science in Computer
+                        Science (BSCS) student at Wesleyan
+                        University–Philippines, Maria Aurora Campus.
+                    </p>
+                    <p>
+                        I am currently learning the fundamentals of
+                        programming and web development. My goal is
+                        to become a skilled developer and build useful
+                        applications that can help other people.
+                    </p>
+                    <p>
+                        Outside of studying, I enjoy playing Mobile
+                        Legends: Bang Bang, Call of Duty: Mobile, and
+                        Roblox.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <p><strong>Name:</strong> Xyron A. Parrocha</p>
+                    <p><strong>Course:</strong> BS Computer Science</p>
+                    <p><strong>Year Level:</strong> First Year</p>
+                    <p><strong>University:</strong> WUP – Maria Aurora</p>
+                    <p><strong>Interests:</strong> Coding, technology, and gaming</p>
+                    <p><strong>Favorite Games:</strong> Mobile Legends: Bang Bang, Call of Duty: Mobile, Roblox</p>
+                    <p><strong>Roblox:</strong> Xaoheku (@Cyruhiku)</p>
+                    <p><strong>CODM UID:</strong> 6954988175051718657</p>
+                    <p><strong>ML ID:</strong> 626372641 (10137)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section skills" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I AM LEARNING</p>
+                <h2>My <span>Skills</span></h2>
+                <p class="section-description">
+                    These are the technologies and skills I am
+                    currently studying and practicing.
+                </p>
+            </div>
+
+            <div class="card-grid">
+                <article class="card skill-card">
+                    <div class="card-icon">🌐</div>
+                    <h3>HTML</h3>
+                    <p>Creating the structure of web pages.</p>
+                    <span class="tag">Beginner</span>
+                </article>
+
+                <article class="card skill-card">
+                    <div class="card-icon">🎨</div>
+                    <h3>CSS</h3>
+                    <p>Designing layouts, colors, and styles.</p>
+                    <span class="tag">Beginner</span>
+                </article>
+
+                <article class="card skill-card">
+                    <div class="card-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <p>Adding interaction to websites.</p>
+                    <span class="tag">Learning</span>
+                </article>
+
+                <article class="card skill-card">
+                    <div class="card-icon">☕</div>
+                    <h3>Java</h3>
+                    <p>Practicing programming logic and coding.</p>
+                    <span class="tag">Learning</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section projects" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">MY WORK</p>
+                <h2>My <span>Projects</span></h2>
+                <p class="section-description">
+                    Some projects I am working on or planning to develop.
+                </p>
+            </div>
+
+            <div class="card-grid">
+                <article class="card project-card">
+                    <div class="project-number">01</div>
+                    <h3>Personal Portfolio</h3>
+                    <p>
+                        A personal website that introduces me,
+                        my skills, and my projects.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </article>
+
+                <article class="card project-card">
+                    <div class="project-number">02</div>
+                    <h3>CampusBite</h3>
+                    <p>
+                        A proposed food ordering and billing system
+                        for the WUP–Maria Aurora Campus.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">Console App</span>
+                    </div>
+                </article>
+
+                <article class="card project-card">
+                    <div class="project-number">03</div>
+                    <h3>SmartCash</h3>
+                    <p>
+                        A proposed student budget tracker for
+                        recording expenses and savings.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">Student Project</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section contact" id="contact">
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Contact <span>Me</span></h2>
+                <p class="section-description">
+                    Feel free to reach out for school projects,
+                    collaboration, or other opportunities.
+                </p>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-item">
+                    <span>✉</span>
+                    <div>
+                        <h3>Email</h3>
+                        <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=xyronparrcha@gmail.com" target="_blank" rel="noopener noreferrer">xyronparrcha@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span>📞</span>
+                    <div>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+639463915132">09463915132</a></p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span>📍</span>
+                    <div>
+                        <h3>Location</h3>
+                        <p>Maria Aurora, Aurora, Philippines</p>
+                    </div>
+                </div>
+
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=xyronparrcha@gmail.com&su=Hello%20Xyron&body=Hi%20Xyron%2C%0A%0A"
+                   class="btn" id="email-button" target="_blank" rel="noopener noreferrer">Send Me an Email</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> Xyron A. Parrocha.
+           Personal Portfolio.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
